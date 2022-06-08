@@ -4,9 +4,9 @@ TEST IT WITH DETAILS\
 
 #[Student Details]\
 Email: zax@gmail.com \
-Password: 12345678 \
+Password: 12345678 
 
 
 #[Teacher Details]\
 Email: sirzax@gmail.com \
-Password: 12345678 \
+Password: 12345678 
