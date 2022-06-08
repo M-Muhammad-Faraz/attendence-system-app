@@ -108,7 +108,7 @@ $users = [
         "19 March,2022" => ["P" => ""],
         "20 March,2022" => ["P" => ""],
     ]),
-    new Student("1", "Rabeea Aftab", "wifezax@gmail.com", "12345678", "Matric", "B", "A", 26, [
+    new Student("1", "GGWP GG", "zax2@gmail.com", "12345678", "Matric", "B", "A", 26, [
         "6 March,2022" => ["P" => ""],
         "7 March,2022" => ["P" => ""],
         "8 March,2022" => ["P" => ""],
