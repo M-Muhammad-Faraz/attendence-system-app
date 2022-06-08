@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page{
+    position: relative;
+    z-index: 999;
+}
+.blackOverlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.265);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.portalPage{
+    height: 100vh;
+    background-image: url('../Assets/img/portalBackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Kalam', cursive;
+    color: #fff;
+}
+.text-heading1{
+    font-size: 3em;
+    font-weight: 700;
+}
+.text-heading2{
+    font-size: 2em;
+    font-weight: 700;
+}
+.text-heading3{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.text-subheading1{
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #CCC;
+    
+}
+
+
+
+
+
+.buttonPrimary{
+    max-width: 350px ;
+    padding: 15px 25px;
+    margin: 10px;
+    border: #fff 1px;
+    border-style: solid;
+    transition: background-color  250ms ease;
+    cursor: pointer;
+    
+}
+.buttonPrimary span{
+    transition: color 100ms ease;
+    text-decoration: none;
+    color: #fff;
+    
+}
+.buttonPrimary:hover{
+    background-color: #fff;
+    animation: rotate 0.7s ease-in-out both;
+}
+.buttonPrimary:hover span{
+    color: #0A5442;
+    animation: storm 0.7s ease-in-out both;
+    animation-delay: 0.06s;
+}
+
+
+
+.profile{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.profile.small{
+    width: 45px;
+    height: 45px;
+}
+
+.edit{
+cursor: pointer;
+}
+.date>div{
+    
+    margin: 0 3px;
+}
+.btns>button{
+    margin: 3px;
+}
+
+
+
+.attendence{
+    max-height: 400px;
+    overflow: auto;
+}
+
+
+.hidden{
+    display: none;
+}
+
+
+@keyframes rotate
+{
+
+    0%{
+        transform: rotate(0deg) translate3d(0, 0, 0)
+    }
+
+    25%
+    {
+        transform: rotate(3deg) translate3d(0, 0, 0)
+    }
+
+    50% 
+    {
+        transform: rotate(-3deg) translate3d(0, 0, 0)
+    }
+    75% 
+    {   
+        transform: rotate(1deg) translate3d(0, 0, 0)
+    }  
+    100%
+    {
+        transform: rotate(0deg) translate3d(0, 0, 0)
+    }
+}
+  
+@keyframes storm{ 
+    0%{
+
+        transform: translate3d( 0, 0, 0) translateZ(0)
+    }
+    25%{
+
+        transform: translate3d( 4px, 0, 0) translateZ(0)
+    }
+    50%{
+
+        transform: translate3d( -3px, 0, 0) translateZ(0)
+    }
+    75%{
+
+        transform: translate3d( 2px, 0, 0) translateZ(0)
+    }
+    100%{
+
+        transform: translate3d( 0, 0, 0) translateZ(0)
+    }
+}
